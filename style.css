@@ -1,3 +1,156 @@
 .nagybetus {
     text-transform: uppercase;
 }
+*{
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase; /* Csupa nagybetű */
+    letter-spacing: 2px;      /* Összenyomott betűköz a Marvel-hatásért */
+}
+.nagyobbtipus{
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase; /* Csupa nagybetű */
+    letter-spacing: 1 px;      /* Összenyomott betűköz a Marvel-hatásért */
+    font-size: 35px;
+}
+
+.marvel-hover {
+
+    transition: all 0.3s ease-in-out;
+}
+
+.marvel-hover:hover {
+    background-color: rgba(70, 30, 30, 1) !important; 
+    color: white !important;               
+
+    box-shadow: 0 0 20px rgba(230, 36, 41, 0.7);
+
+    transform: translateY(-2px); 
+}
+
+.fekete {
+    background-color: #181818;
+}
+.feherbetu {
+    color: rgb(255, 255, 255);
+}
+
+.mmarvel-hover {
+}
+
+.mmarvel-hover:hover {
+    background-color: rgba(230, 185, 36, 0.7) !important; 
+    color: white !important;               
+
+    box-shadow: 0 0 20px rgba(230, 185, 36, 0.7);
+
+    transform: translateY(-2px); 
+}
+
+.mmarvel-hover:active {
+    background-color: rgba(230, 185, 36, 0.7) !important; 
+    color: rgb(0, 0, 0) !important;               
+
+    box-shadow: 0 0 20px rgba(230, 185, 36, 0.7);
+
+    transform: translateY(5px); 
+    outline: 2px solid rgba(0, 0, 0, 0.7);
+}
+
+.w3-button a {
+    text-decoration: none;
+
+}
+ li  { 
+    text-decoration: none; 
+    color: inherit;
+    font-size: 30px;
+    letter-spacing: 3px; }
+
+.small {
+    font-size: 18px;
+}
+
+.kekmarvel-hover {
+
+    transition: all 0.3s ease-in-out;
+}
+
+.kekmarvel-hover:hover {
+    background-color: rgb(19, 25, 109) !important; 
+    color: white !important;               
+
+    box-shadow: 0 0px 50px rgba(39, 36, 230, 0.7);
+
+    transform: translateY(-2px); 
+}
+
+.kek {
+    box-shadow: 0px 00px 70px rgba(39, 36, 230, 0.8);
+    border-radius: 20px;
+}
+
+.borderradius {
+  border-radius: 10px;
+  border: 5px solid #000000;
+}
+
+.cimsor {
+    font-size: 50px;
+    letter-spacing: 3px;
+    color: #000000;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    font-family: 'Anton', sans-serif;
+}
+
+.big {
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-family: 'Anton', sans-serif;
+    font-weight: bold;
+}
+
+.szurke {
+    color: #faf9f6;
+}
+
+.narancsmarvel-hover {
+
+    transition: all 0.3s ease-in-out;
+}
+
+.narancsmarvel-hover:hover {
+    background-color: rgba(255, 102, 0, 0.7); 
+    color: white ;               
+
+    box-shadow: 0 0px 50px rgba(255, 51, 0, 0.7);
+
+    transform: translateY(-2px); 
+}
+
+.narancs {
+    box-shadow: 0px 00px 70px rgba(255, 102, 0, 0.7);
+    border-radius: 20px;
+}
+.piros {
+    box-shadow: 0px 00px 70px rgba(255, 0, 0, 0.7);
+    border-radius: 20px;
+}
+
+.pirosmarvel-hover {
+
+    transition: all 0.3s ease-in-out;
+}
+
+.pirosmarvel-hover:hover {
+    background-color: rgba(255, 0, 0, 0.5); 
+    color: white ;               
+
+    box-shadow: 0 0px 50px rgba(255, 0, 0, 0.7);
+
+    transform: translateY(-2px); 
+}
+
+::selection {
+    background-color: red; 
+    color: white;              
+}
