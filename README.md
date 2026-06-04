@@ -1,4 +1,5 @@
 # template-weboldal
+
 Saját weboldal W3.CSS template alapján
 
 # Template weboldal projekt
@@ -16,11 +17,15 @@ Ezt a W3.CSS template-et választottam: Marketing / Website Template
 
 ## Mit módosítottam?
 
--
--
--
--
--
+-Logo
+-navigáció
+-CSS
+-HTML
+-hover,active,focus,selection
+-képek
+-elrendezés
+-szövegek
+-lábléc
 
 ## Használt technológiák
 
@@ -31,4 +36,4 @@ Ezt a W3.CSS template-et választottam: Marketing / Website Template
 
 ## Weboldal linkje
 
-GitHub Pages link:
+GitHub Pages link:https://github.com/hudubalazs-asd/template-weboldal
