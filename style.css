@@ -3,13 +3,13 @@
 }
 *{
     font-family: 'Anton', sans-serif;
-    text-transform: uppercase; /* Csupa nagybetű */
-    letter-spacing: 2px;      /* Összenyomott betűköz a Marvel-hatásért */
+    text-transform: uppercase; 
+    letter-spacing: 2px;      
 }
 .nagyobbtipus{
     font-family: 'Anton', sans-serif;
-    text-transform: uppercase; /* Csupa nagybetű */
-    letter-spacing: 1 px;      /* Összenyomott betűköz a Marvel-hatásért */
+    text-transform: uppercase; 
+    letter-spacing: 1 px;      
     font-size: 35px;
 }
 
@@ -153,4 +153,8 @@
 ::selection {
     background-color: red; 
     color: white;              
+}
+
+.kerekites{
+    border-radius: 40%;
 }
